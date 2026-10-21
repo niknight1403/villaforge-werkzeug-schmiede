@@ -1,0 +1,11 @@
+{
+  "name": "generator-villa",
+  "version": "1.0.0",
+  "description": "Autonome Generator-Villa fuer VillaForge",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
