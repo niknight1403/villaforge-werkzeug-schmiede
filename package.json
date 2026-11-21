@@ -4,6 +4,7 @@
   "description": "Autonomous Generator Villa for VillaForge",
   "main": "src/index.js",
   "scripts": {
+    "prebuild": "bash scripts/guard.sh",
     "build": "node src/index.js",
     "test": "node tests/test.js",
     "smoke": "node tests/smoke.js"
