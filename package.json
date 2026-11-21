@@ -1,16 +1,17 @@
 {
-  "name": "generator-villa",
+  "name": "villaforge-generator",
   "version": "1.0.0",
-  "description": "Autonome Generator-Villa fuer VillaForge",
+  "description": "Autonomous Generator Villa for VillaForge",
   "main": "src/index.js",
   "scripts": {
-    "build": "node src/index.js build",
-    "test": "node test.js",
-    "smoke": "node test.js"
+    "build": "node src/index.js",
+    "test": "node tests/test.js",
+    "smoke": "node tests/smoke.js"
   },
+  "author": "VillaForge",
+  "license": "MIT",
   "dependencies": {},
-  "dependencies": {
-    "express": "^4.18.2"
-  },
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
 }
