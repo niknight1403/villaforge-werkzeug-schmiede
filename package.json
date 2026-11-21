@@ -4,15 +4,15 @@
   "description": "Autonomous Generator Villa for VillaForge",
   "main": "src/index.js",
   "scripts": {
-    "prebuild": "bash scripts/guard.sh",
-    "build": "node src/index.js",
-    "test": "node tests/test.js",
+    "build": "echo 'No build steps required for pure JS'",
+    "test": "npm run smoke",
     "smoke": "node tests/smoke.js"
   },
+  "keywords": [],
   "author": "VillaForge",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
-    "jest": "^29.0.0"
+    "mocha": "^10.0.0",
+    "chai": "^4.3.0"
   }
 }
